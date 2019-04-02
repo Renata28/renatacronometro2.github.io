@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang ="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="./js.js"></script>
+    <link rel="stylesheet" href="css.css">
+    
+    <title>Cronometro</title>
+</head>
+    <body>
+        <div id="contenedor">
+            <div class="reloj" id="Horas">00</div>
+            <div class="reloj" id="Minutos">:00</div>
+            <div class="reloj" id="Segundos">:00</div>
+            <div class="reloj" id="Centesimas">:00</div>
+            <input type="button" class="boton" id="inicio" value="Start &#9658;" onclick="inicio();">
+            <input type="button" class="boton" id="parar" value="Stop &#8718;" onclick="parar();" disabled>
+            <input type="button" class="boton" id="reinicio" value="Reset &#8635;" onclick="reinicio();" disabled>
+        </div>
+     </body>
+
+</html>
